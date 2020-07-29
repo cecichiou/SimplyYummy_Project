@@ -35,11 +35,6 @@
                                     <segue destination="10e-mM-5Ng" kind="show" id="kFi-ln-lNS"/>
                                 </connections>
                             </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="5kI-C1-4Ls">
-                                <rect key="frame" x="38" y="109" width="356" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dfX-3l-QP5">
                                 <rect key="frame" x="30" y="233" width="157" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,7 +63,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnb-9r-CJx">
-                                <rect key="frame" x="30" y="614" width="164" height="39"/>
+                                <rect key="frame" x="30" y="560" width="164" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74341057678551037" green="0.97943619269467863" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
@@ -80,9 +75,20 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potato-salad-sandwiches-593886" translatesAutoresizingMaskIntoConstraints="NO" id="SRA-9F-6bH">
-                                <rect key="frame" x="30" y="456" width="164" height="128"/>
+                                <rect key="frame" x="30" y="424" width="164" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAk-Xj-C1C">
+                                <rect key="frame" x="20" y="648" width="144" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <state key="normal" title="Go To Favorites ❤️"/>
+                            </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wK8-va-0Tq">
+                                <rect key="frame" x="1" y="106" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -95,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="-555.07246376811599" y="-22.010869565217394"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Macaroni Cheese-->
         <scene sceneID="2ju-sI-K0l">
             <objects>
-                <viewController id="10e-mM-5Ng" sceneMemberID="viewController">
+                <viewController id="10e-mM-5Ng" customClass="ViewController_Macaroni_Cheese" customModule="SimplyYummy_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jz7-pb-iUd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="146" y="-22"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Tuna Macaroni Salad-->
         <scene sceneID="msM-aw-NZH">
             <objects>
-                <viewController id="xzi-Ht-ZfX" sceneMemberID="viewController">
+                <viewController id="xzi-Ht-ZfX" customClass="ViewController_Tuna_Macaroni_Salad" customModule="SimplyYummy_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wee-3I-B6P">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,6 +225,12 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="HCH-pz-DMW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paO-dl-eDW">
+                                <rect key="frame" x="345" y="639" width="34" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="❤️"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.76984523994225362" green="0.98039215690000003" blue="0.75624714127051895" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -234,10 +246,10 @@
             </objects>
             <point key="canvasLocation" x="834.78260869565224" y="-28.532608695652176"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Potato Salad-->
         <scene sceneID="wKl-zE-fzU">
             <objects>
-                <viewController id="S0W-yd-zPV" sceneMemberID="viewController">
+                <viewController id="S0W-yd-zPV" customClass="ViewController_Potato_Salad" customModule="SimplyYummy_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c8p-ZA-mGA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -356,6 +368,12 @@
                                 <rect key="frame" x="230" y="120" width="164" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BL-SR-eoX">
+                                <rect key="frame" x="360" y="639" width="34" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="❤️"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70364848442402184" green="1" blue="0.97721649056435511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -371,7 +389,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lj9-xF-GqT"/>
+        <segue reference="HCH-pz-DMW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Classic-Tuna-Macaroni-Salad-l-SimplyScratch.com-11-1200x1798" width="1200" height="1798"/>

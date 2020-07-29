@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1836680D24D201A5005D7870 /* ViewController_Macaroni&Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836680C24D201A5005D7870 /* ViewController_Macaroni&Cheese.swift */; };
+		1836680F24D201BF005D7870 /* ViewController_Tuna Macaroni Salad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836680E24D201BF005D7870 /* ViewController_Tuna Macaroni Salad.swift */; };
+		1836681124D201CD005D7870 /* ViewController_Potato Salad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1836681024D201CD005D7870 /* ViewController_Potato Salad.swift */; };
 		1842653124D0CAE1001A12C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842653024D0CAE1001A12C4 /* AppDelegate.swift */; };
 		1842653324D0CAE1001A12C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842653224D0CAE1001A12C4 /* SceneDelegate.swift */; };
 		1842653524D0CAE1001A12C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842653424D0CAE1001A12C4 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1836680C24D201A5005D7870 /* ViewController_Macaroni&Cheese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController_Macaroni&Cheese.swift"; sourceTree = "<group>"; };
+		1836680E24D201BF005D7870 /* ViewController_Tuna Macaroni Salad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController_Tuna Macaroni Salad.swift"; sourceTree = "<group>"; };
+		1836681024D201CD005D7870 /* ViewController_Potato Salad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController_Potato Salad.swift"; sourceTree = "<group>"; };
 		1842652D24D0CAE1001A12C4 /* SimplyYummy_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyYummy_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1842653024D0CAE1001A12C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1842653224D0CAE1001A12C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				1842653E24D0CAE2001A12C4 /* LaunchScreen.storyboard */,
 				1842654124D0CAE2001A12C4 /* Info.plist */,
 				1842653924D0CAE1001A12C4 /* SimplyYummy_Project.xcdatamodeld */,
+				1836680C24D201A5005D7870 /* ViewController_Macaroni&Cheese.swift */,
+				1836680E24D201BF005D7870 /* ViewController_Tuna Macaroni Salad.swift */,
+				1836681024D201CD005D7870 /* ViewController_Potato Salad.swift */,
 			);
 			path = SimplyYummy_Project;
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1842653524D0CAE1001A12C4 /* ViewController.swift in Sources */,
+				1836680D24D201A5005D7870 /* ViewController_Macaroni&Cheese.swift in Sources */,
+				1836680F24D201BF005D7870 /* ViewController_Tuna Macaroni Salad.swift in Sources */,
 				1842653124D0CAE1001A12C4 /* AppDelegate.swift in Sources */,
+				1836681124D201CD005D7870 /* ViewController_Potato Salad.swift in Sources */,
 				1842653B24D0CAE1001A12C4 /* SimplyYummy_Project.xcdatamodeld in Sources */,
 				1842653324D0CAE1001A12C4 /* SceneDelegate.swift in Sources */,
 			);
