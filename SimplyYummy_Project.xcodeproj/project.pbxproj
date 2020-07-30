@@ -17,6 +17,9 @@
 		1842653B24D0CAE1001A12C4 /* SimplyYummy_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1842653924D0CAE1001A12C4 /* SimplyYummy_Project.xcdatamodeld */; };
 		1842653D24D0CAE2001A12C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1842653C24D0CAE2001A12C4 /* Assets.xcassets */; };
 		1842654024D0CAE2001A12C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1842653E24D0CAE2001A12C4 /* LaunchScreen.storyboard */; };
+		1897701224D3382A00FEEABC /* ViewController_SearchByIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897701124D3382A00FEEABC /* ViewController_SearchByIngredients.swift */; };
+		1897701424D339DB00FEEABC /* ViewController_AddYourOwnRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897701324D339DB00FEEABC /* ViewController_AddYourOwnRecipe.swift */; };
+		1897701624D339EB00FEEABC /* ViewController_YourRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897701524D339EB00FEEABC /* ViewController_YourRecipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		1842653C24D0CAE2001A12C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1842653F24D0CAE2001A12C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1842654124D0CAE2001A12C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1897701124D3382A00FEEABC /* ViewController_SearchByIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_SearchByIngredients.swift; sourceTree = "<group>"; };
+		1897701324D339DB00FEEABC /* ViewController_AddYourOwnRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_AddYourOwnRecipe.swift; sourceTree = "<group>"; };
+		1897701524D339EB00FEEABC /* ViewController_YourRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_YourRecipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				1836680C24D201A5005D7870 /* ViewController_Macaroni&Cheese.swift */,
 				1836680E24D201BF005D7870 /* ViewController_Tuna Macaroni Salad.swift */,
 				1836681024D201CD005D7870 /* ViewController_Potato Salad.swift */,
+				1897701124D3382A00FEEABC /* ViewController_SearchByIngredients.swift */,
+				1897701324D339DB00FEEABC /* ViewController_AddYourOwnRecipe.swift */,
+				1897701524D339EB00FEEABC /* ViewController_YourRecipe.swift */,
 			);
 			path = SimplyYummy_Project;
 			sourceTree = "<group>";
@@ -156,7 +165,10 @@
 				1842653124D0CAE1001A12C4 /* AppDelegate.swift in Sources */,
 				1836681124D201CD005D7870 /* ViewController_Potato Salad.swift in Sources */,
 				1842653B24D0CAE1001A12C4 /* SimplyYummy_Project.xcdatamodeld in Sources */,
+				1897701424D339DB00FEEABC /* ViewController_AddYourOwnRecipe.swift in Sources */,
+				1897701224D3382A00FEEABC /* ViewController_SearchByIngredients.swift in Sources */,
 				1842653324D0CAE1001A12C4 /* SceneDelegate.swift in Sources */,
+				1897701624D339EB00FEEABC /* ViewController_YourRecipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
