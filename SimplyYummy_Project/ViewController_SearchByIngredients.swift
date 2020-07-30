@@ -12,9 +12,6 @@ class ViewController_SearchByIngredients: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        TunaMacSalad_Search.isHidden = true
-        PotatoSalad_Search.isHidden = true
-        Mac_Search.isHidden = true
 
         
     }
@@ -45,6 +42,8 @@ class ViewController_SearchByIngredients: UIViewController {
     Mac_Search: UIImageView!
     
     @IBOutlet weak var SearchBar: UITextField!
+    
+    
     
     
     

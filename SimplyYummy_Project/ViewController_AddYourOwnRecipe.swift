@@ -39,9 +39,6 @@ class ViewController_AddYourOwnRecipe: UIViewController, UIImagePickerController
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             displayHomepageImage.image = selectedImage
         }
-        if let selectedImage2 = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-                   displayRecipeImage.image = selectedImage2
-               }
         imagePicker.dismiss(animated: true, completion: nil)
     }
 
